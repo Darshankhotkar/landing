@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>darshu fitness</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<link rel="stylesheet" href=" css/style.css">
+<style>
+    /*css reset*/
+    body {
+        font-family: 'Baloo Bhai';
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('gymBg.jpg') center center/cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red;*/
+        position: absolute;
+        left: 60px;
+        top: 12px;
+    }
+
+    .mid {
+        display: block;
+        width: 500px;
+        margin: 29px auto;
+        /* border: 2px solid green;*/
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 33px;
+        display: inline-block;
+        /* border: 2px solid yellow;*/
+    }
+
+    .navbar {
+        display: inline block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai';
+        margin: auto;
+        background-color: black;
+        color: white;
+        padding: 12px 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn :hover {
+        background-color: rgb(27, 18, 75);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .from-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .from-group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-family: 'Baloo Bhai';
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: 8px auto;
+        width: 88%;
+        padding: 2px;
+
+    }
+
+    .gym-btn {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="gym.png" alt="">
+            <div>darshu fitness</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a> </li>
+                <li><a href="#">about us</a> </li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a> </li>
+            </ul>
+        </div>
+        <!-- Right box for button -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym now pune</h1>
+        <form action="noaction.php" class="form">
+            <div class="form-group">
+                <input type="text" name="" class="gym-btn" placeholder="Enter your Name">
+        </form>
+    </div>
+    <form action="noaction.php" class="form">
+        <div class="form-group">
+            <input type="text" name="" class="gym-btn" placeholder="Enter your  Age">
+    </form>
+    </div>
+    <form action="noaction.php" class="form">
+        <div class="form-group">
+            <input type="text" name="" class="gym-btn" placeholder="Enter your  Gender">
+            <button class=" btn btn-submit">submit</button>
+    </form>
+    </div>
+</body>
+
+</html>
